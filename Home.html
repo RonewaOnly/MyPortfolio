@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/652647f666.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <img id="logo-img" src="/a5968d1892ff43efbe6c2e29681a782a-removebg-preview.png" alt="Logo" >
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#AboutUs">About Me</a></li>
+                    <li><a href="#ProjectsDisplay">Projects</a></li>
+                    <li><a href="#contectMe">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </main>
+
+    <section class="Herosection">
+        <div class="MyName">
+            <h1>Hi there! I'm <span class="name">Ronewa</span> Maselesele.</h1>
+            <br/>
+            <p style="font-style: italic;">Software Engineer</p>
+            <br/>
+            <a class="downbtn" href="CV_2023120714595017.pdf" download>Download Here<i class="fa-solid fa-cloud-arrow-down"></i></a>
+        </div>
+        <div class="Profile-Picture">
+            <img class="pic" src="/IMG-20220121-WA0000.jpg"/>
+        </div>
+    </section>
+
+    <section id="AboutUs">
+        <div class="Details">
+            <h2>A little about me...</h2>
+            <article>
+                <p>
+                    I am a Software Developer with experience in various programming languages such as Java and
+                    Python. My passion is to create innovative solutions that make life easier for people.
+                    Currently, I am studying at the Rosebank College where I am pursuing my Diploma in Software
+                    Development. 
+                    In addition to academics, I enjoy working
+                    on personal projects which include developing mobile applications using Kotlin or
+                    React Library and creating websites using HTML, CSS, JavaScript and PHP. And many more
+                </p>    
+            </article>
+        </div>
+
+        <div class="skillsportal" >
+            <h3>Skills</h3>
+            <ul>
+                <button class="btn">Click Me</button>
+                <li>
+                    <div class="skillset">
+                        Java -  <span class="level" >Proficient</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="80">
+                </li>
+                <li>
+                    <div class="skillset">
+                        Python - <span class="level" >Intermediate</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="65">                    
+                </li>
+                <li>
+                    <div class="skillset">
+                        ReactJS - <span class="level" >Beginner</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="35">                     
+                </li>
+                <li>
+                    <div class="skillset">
+                        HTML/CSS -  <span class="level" >Knowledgeable</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="90">                      
+                </li>
+                <li>
+                    <div class="skillset">
+                        JavaScript - <span class="level" >Advanced</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="79">                     
+                </li>
+                <li>
+                    <div class="skillset">
+                        Database Management Systems (DBMS) -  <span class="level" >Intermediate</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="50">                        
+                </li>
+                <li>
+                    <div class="skillset">
+                        Project Management- <span class="level" >Intermediate</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="50">
+                </li>
+                <li>
+                    <div class="skillset">
+                        Agile methodology - <span class="level" >Basic</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="60">
+                </li>
+                <li>
+                    <div class="skillset">
+                        Software Analyics and Desgin - <span class="level" >Basic</span>
+                    </div>
+                    <input type="range" name="range" class="progress1" min="0" max="100" value="79">
+                </li>
+                <li>
+                    <div class="skillset">
+                        Operating System - <span class="level" >Basic</span>
+                    </div>
+                    <input type="range" name="range"  class="progress1" min="0" max="100" value="30">
+                </li>
+
+                
+            </ul>
+        </div>
+    </section>
+    <section id="ProjectsDisplay">
+        <h2 style="text-align: center;">My Recent Work:</h2>
+        <!-- Displaying projects -->
+        <div class="postblock">
+            <div class="card">
+                <div class="cardFace">
+                    <img src="./projectIcons/noteBook.jpeg" class="img"/>
+                </div>
+                <div class="cardBody">
+                    <h3 class="projectname">Note App</h3>
+                    <p class="description">
+                        This is application is for taking notes from the user using C#
+                    </p>
+                    <a class="githubBtn" href="https://github.com/RonewaOnly/NotesApp" target="_blank">Get Source Code</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="postblock">
+            <div class="card">
+                <div class="cardFace">
+                    <img src="./projectIcons/jsimage.png" class="img"/>
+                </div>
+                <div class="cardBody">
+                    <h3 class="projectname">Javascript Projects</h3>
+                    <p class="description">
+                        This folder holds 30 different project to display skills i have optained
+                    </p>
+                    <a class="githubBtn" href="https://github.com/RonewaOnly/Javascript-Projects" target="_blank">Get Source Code</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="postblock">
+            <div class="card">
+                <div class="cardFace">
+                    <img src="./projectIcons/jokes.jpeg" class="img"/>
+                </div>
+                <div class="cardBody">
+                    <h3 class="projectname">Joke Generator</h3>
+                    <p class="description">
+                        It will be  generating jokes at random
+                    </p>
+                    <a class="githubBtn" href="https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/JokeGenerator" target="_blank">Get Source Code</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="postblock">
+            <div class="card">
+                <div class="cardFace">
+                    <img src="./projectIcons/bookstore.jpeg" class="img"/>
+                </div>
+                <div class="cardBody">
+                    <h3 class="projectname">Book store</h3>
+                    <p class="description">
+                        This was one of my POE for my web developement module
+                    </p>
+                    <a class="githubBtn" href="https://github.com/RonewaOnly/poe_final" target="_blank">Get Source Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contectMe"> 
+        <div class="social-media">
+            <h2>Socials</h2>
+            <!--<p>Follow me on social media platforms to see my projects and updates:</p>-->
+            <div>
+                <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/ronewa-maselesele-564563232/" target="_blank">LinkedIn Profile</a>
+            </div>
+            <div>
+                <i class="fab fa-github"></i><a href="https://github.com/RonewaOnly" target="_blank">github</a>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <div>
+                <i class="fa-solid fa-inbox"></i><a href="mailto:www.rsmaselesele200@gmaill">Personal Email</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i><a href="tel: +27677345623" target="_self">Call Me</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

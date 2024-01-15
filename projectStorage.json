@@ -1,0 +1,69 @@
+{
+    "Projects":[
+        {
+            "Project_Name": "Note App",
+            "Description":"This is application is for taking notes from the user using C#",
+            "Programming_Language": ["c#"],
+            "URL":"https://github.com/RonewaOnly/NotesApp",
+            "Image": "/projectIcons/noteBook.jpeg"
+
+        },
+        {
+            "Project_Name":"Javascript Projects",
+            "Description":"This folder holds 30 different project to display skills i have optained ",
+            "SubDescription":" i will be displaying a few of the projects",
+            "Programming_Language":["HTML","CSS","JS"],
+            "URL":"https://github.com/RonewaOnly/Javascript-Projects",
+            "Image":"/projectIcons/jsimage.png",
+            "Array":[
+                {
+                    "id": 1,
+                    "Project_Name": "Dice Game",
+                    "Description": "A simple dice game made with HTML and JS.",
+                    "Programming_Language": ["HTML","CSS","JS"],
+                    "URL":"https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/Dice_Game",
+                    "Image": "/projectIcons/jsimage.png"
+                },
+                {
+                    "id": 2,
+                    "Project_Name": "Word Counter",
+                    "Description": "It will live count word the user will be entering",
+                    "Programming_Language": ["HTML","CSS","JS"],
+                    "URL":"https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/LiveWordCounter",
+                    "Image": "/projectIcons/Counter.png"
+                },
+                {
+                    "id": 3,
+                    "Project_Name": "Digital Clock",
+                    "Description": "It is a Digital Clock for displaying the time",
+                    "Programming_Language": ["HTML","CSS","JS"],
+                    "URL":"https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/Digital_Clock_With_JavaScript",
+                    "Image": "/projectIcons/Counter.png"
+                },
+                {
+                    "id": 4,
+                    "Project_Name": "Dynamic Form",
+                    "Description": "It is a dynamic form to get data",
+                    "Programming_Language": ["HTML","CSS","JS"],
+                    "URL":"https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/DynamicForm",
+                    "Image": "/projectIcons/form.png"
+                }
+                ,
+                {
+                    "id": 5,
+                    "Project_Name": "Joke Generator",
+                    "Description": "It will be  generating jokes at random",
+                    "Programming_Language": ["HTML","CSS","JS"],
+                    "URL":"https://github.com/RonewaOnly/Javascript-Projects/tree/main/30daysJavascriptProjects/JokeGenerator",
+                    "Image": "/projectIcons/jokes.jpeg"
+                }
+            ]
+        },{
+            "Project_Name": "Book store",
+            "Description":"This was one of my POE for my web developement module",
+            "Programming_Language": ["PHP","CSS","JS","HACK"],
+            "URL":"https://github.com/RonewaOnly/poe_final",
+            "Image": "/projectIcons/bookstore.jpeg"
+        }
+    ]
+}
